@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilemas & Soluções</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            font-family: Arial, sans-serif;
+            color: #183C63;
+        }
+
+        header {
+            background-color: #183C63;
+            color: #FFFFFF;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 30px auto;
+            padding: 30px 20px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        header p {
+            margin-bottom: 15px;
+        }
+
+        main {
+            background-color: #d4adcf;
+            padding: 30px 0;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            gap: 20px;
+        }
+
+        .conteudo-post {
+            flex: 1;
+        }
+
+        .conteudo-post h2 {
+            color: #183C63;
+            margin-bottom: 8px;
+        }
+
+        .artigo-autor {
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 12px;
+            font-size: 0.9em;
+        }
+
+        .dilema-texto {
+            font-style: italic;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-left: 4px solid #183C63;
+            margin-bottom: 12px;
+        }
+
+        .solucao-texto {
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .imagem-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .imagem {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        button {
+            background-color: #183C63;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            background-color: #183C63;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dilemas & Soluções</h1>
+        <p>Analisando escolhas difíceis do cotidiano, tecnologia e carreira com propostas práticas.</p>
+        <button>❤️ <span>0</span></button>
+        <button>👍 <span>0</span></button>
+    </header>
+
+    <main>
+        <!-- Dilema 1 -->
+        <article>
+            <div class="conteudo-post">
+                <h2>1. Privatização de Dados vs. Conveniência</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p class="dilema-texto"><strong>Dilema:</strong> Devo aceitar todos os termos de privacidade de um aplicativo para ter um serviço gratuito, mesmo sabendo que meus dados serão vendidos?</p>
+                <p class="solucao-texto"><strong>Proposta de Solução:</strong> Aplique o princípio da redução de danos. Utilize ferramentas alternadoras de e-mail (e-mails temporários), limite as permissões do aplicativo no celular apenas ao necessário e busque alternativas de código aberto quando a privacidade for crítica.</p>
+                <button>❤️ <span>0</span></button>
+                <button>👎 <span>0</span></button>
+            </div>
+            <div class="imagem-container">
+                <img src="imagem-blog.png" alt="Ilustração sobre tecnologia e dados" class="imagem">
+            </div>
+        </article>
+
+        <!-- Dilema 2 -->
+        <article>
+            <div class="conteudo-post">
+                <h2>2. Avanço na Carreira vs. Tempo Pessoal</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p class="dilema-texto"><strong>Dilema:</strong> Aceitar uma promoção que paga mais, porém exige trabalhar nos finais de semana e reduz o tempo com a família?</p>
+                <p class="solucao-texto"><strong>Proposta de Solução:</strong> Estabeleça uma meta temporal clara. Se aceitar pelo momento financeiro, negocie um prazo (ex: 6 meses a 1 ano) com a gestão para reavaliar a rotina ou defina um limite claro de entregas para evitar o burnout.</p>
+                <button>❤️ <span>0</span></button>
+                <button>👎 <span>0</span></button>
+            </div>
+            <div class="imagem-container">
+                <img src="imagem-blog.png" alt="Ilustração sobre trabalho e tempo" class="imagem">
+            </div>
+        </article>
+
+        <!-- Dilema 3 -->
+        <article>
+            <div class="conteudo-post">
+                <h2>3. Transparência de Erros no Trabalho</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p class="dilema-texto"><strong>Dilema:</strong> Encontrei um erro em um projeto já entregue. Corrigir vai atrasar o prazo do cliente, mas ignorar pode gerar problemas no futuro.</p>
+                <p class="solucao-texto"><strong>Proposta de Solução:</strong> Priorize a transparência proativa. Reporte a falha à equipe acompanhada imediatamente de duas opções de plano de ação para correção rápida, minimizando impactos e mantendo a confiança técnica.</p>
+                <button>❤️ <span>0</span></button>
+                <button>👎 <span>0</span></button>
+            </div>
+            <div class="imagem-container">
+                <img src="imagem-blog.png" alt="Ilustração sobre tomada de decisão" class="imagem">
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 Dilemas & Soluções | Desenvolvido por Alexandra</p>
+    </footer>
+
+    <script>
+        const botoes = document.querySelectorAll("button");
+        botoes.forEach(function (botao) {
+            let curtiu = false;
+            botao.addEventListener("click", botaoClicado);
+
+            function botaoClicado() {
+                let texto = botao.querySelector("span");
+                if (texto) {
+                    if (curtiu === false) {
+                        texto.textContent++;
+                        curtiu = true;
+                    } else {
+                        texto.textContent--;
+                        curtiu = false;
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
